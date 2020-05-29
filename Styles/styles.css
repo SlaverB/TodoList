@@ -7,7 +7,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
-  background: #060B11 url("/Images/Background.jpg") no-repeat center center fixed;
+  background: #060B11 url("../Images/Background.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #333;
 }
@@ -120,11 +120,11 @@ ul li span.progress, ul li span.check {
 }
 
 ul li span.progress {
-  background: url("/Images/progress.svg") no-repeat top left;
+  background: url("../Images/progress.svg") no-repeat top left;
 }
 
 ul li span.check {
-  background: url("/Images/check.svg") no-repeat top left;
+  background: url("../Images/check.svg") no-repeat top left;
 }
 
 ul li span.text {
@@ -144,7 +144,7 @@ ul li span.text.completed {
 }
 
 ul li span.remove {
-  background: url("/Images/delete.svg") no-repeat top left;
+  background: url("../Images/delete.svg") no-repeat top left;
   -webkit-box-ordinal-group: 1;
       -ms-flex-order: 0;
           order: 0;
