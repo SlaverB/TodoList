@@ -1,0 +1,203 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  background: #060B11 url("assets/Background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+wrapper {
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+container {
+  margin: 50px auto;
+  min-width: 380px;
+  width: 500px;
+  height: 500px;
+  background: #fafafa;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px rgba(25, 25, 25, 0.25);
+          box-shadow: 0 0 5px rgba(25, 25, 25, 0.25);
+  padding: 1rem;
+}
+
+h1 {
+  width: 100%;
+  margin-bottom: auto;
+  margin-top: 0;
+  padding-bottom: 1rem;
+  line-height: 1;
+  border-bottom: #33333378 solid 2px;
+  text-align: center;
+}
+
+.list-container {
+  font-size: 100%;
+  width: 100%;
+  height: 68%;
+  max-height: 450px;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0 10px;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border-bottom: #d2d2d2 solid 1px;
+  padding: 8px 0px;
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: all 0.25s cubic-bezier(0.2, 0, 0.03, 1);
+  transition: all 0.25s cubic-bezier(0.2, 0, 0.03, 1);
+}
+
+ul li :hover {
+  background: #ddd;
+}
+
+ul li span {
+  display: inline-block;
+}
+
+ul li span.progress, ul li span.check {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  height: 20px;
+  width: 40px;
+}
+
+ul li span.progress {
+  background: url("assets/progress.svg") no-repeat top left;
+}
+
+ul li span.check {
+  background: url("assets/check.svg") no-repeat top left;
+}
+
+ul li span.text {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+}
+
+ul li span.text.completed {
+  text-decoration: line-through;
+}
+
+ul li span.remove {
+  background: url("assets/delete.svg") no-repeat top left;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  margin-left: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.add-todo {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.add-todo input {
+  background-color: #fafafa;
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border-style: none;
+  padding: 0 10px;
+  outline: none;
+}
+
+.add-todo input:focus {
+  background-color: rgba(250, 250, 250, 0.8);
+}
+
+.add-todo .btn {
+  width: 160px;
+  padding: 8px 15px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: #7c7c7c solid 1px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.25s cubic-bezier(0.2, 0, 0.03, 1);
+  transition: all 0.25s cubic-bezier(0.2, 0, 0.03, 1);
+}
+
+.add-todo .btn:hover {
+  background-color: #fafafa;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=styles.css.map */
