@@ -14,7 +14,7 @@ body {
     size: 16px;
   }
   line-height: 18px;
-  background: #060B11 url("/Images/Background.jpg") no-repeat center center fixed;
+  background: #060B11 url("../Images/Background.jpg") no-repeat center center fixed;
   background-size: cover;
   color: $main-color;
 }
@@ -95,11 +95,11 @@ ul {
       }
       &.progress {
         //margin-right: 20px;
-        background:url("/Images/progress.svg") no-repeat top left;
+        background:url("../Images/progress.svg") no-repeat top left;
       }
       &.check {
         //margin-right: 20px;
-        background:url("/Images/check.svg") no-repeat top left;
+        background:url("../Images/check.svg") no-repeat top left;
       }
     }
 
@@ -116,7 +116,7 @@ ul {
 
     }
     span.remove {
-      background:url("/Images/delete.svg") no-repeat top left;
+      background:url("../Images/delete.svg") no-repeat top left;
       order: 0;
       flex: 0 1 auto;
       align-self: auto;
